@@ -1,0 +1,794 @@
+[0m[[0minfo[0m] [0mSetting up Play fork run ... (use Ctrl+D to cancel)[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/krishnachaitanya/mapr_connect1/}root...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.11;1.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-enhancer;1.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.2-GA ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-server_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.11;0.7 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.7 ...[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.7 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.9.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.8.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-utils;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.19 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.19 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.19 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-streams_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.reactivestreams#reactive-streams;1.0.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-stream_2.11;2.4.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#ssl-config-akka_2.11;0.2.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#ssl-config-core_2.11;0.2.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.11;2.4.4 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
+[0m[[0minfo[0m] [0mResolving xerces#xercesImpl;2.11.0 ...[0m
+[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.4.01 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.transaction#jta;1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.inject#guice;4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;16.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.inject.extensions#guice-assistedinject;4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.yaml#snakeyaml;1.16 ...[0m
+[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-validator;5.2.4.Final ...[0m
+[0m[[0minfo[0m] [0mResolving javax.validation#validation-api;1.1.0.Final ...[0m
+[0m[[0minfo[0m] [0mResolving org.jboss.logging#jboss-logging;3.2.1.Final ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml#classmate;1.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.el#javax.el-api;3.0.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.springframework#spring-context;4.2.4.RELEASE ...[0m
+[0m[[0minfo[0m] [0mResolving org.springframework#spring-core;4.2.4.RELEASE ...[0m
+[0m[[0minfo[0m] [0mResolving org.springframework#spring-beans;4.2.4.RELEASE ...[0m
+[0m[[0minfo[0m] [0mResolving org.reflections#reflections;0.9.10 ...[0m
+[0m[[0minfo[0m] [0mResolving net.jodah#typetools;0.4.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;19.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;3.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.tomcat#tomcat-servlet-api;8.0.33 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-server_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.netty#netty-reactive-streams-http;1.0.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.netty#netty-reactive-streams;1.0.6 ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-handler;4.0.36.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-buffer;4.0.36.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-common;4.0.36.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-transport;4.0.36.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-codec;4.0.36.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-codec-http;4.0.36.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-transport-native-epoll;4.0.36.Final ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-logback_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jdbc_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc-api_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.jolbox#bonecp;0.8.0.RELEASE ...[0m
+[0m[[0minfo[0m] [0mResolving com.zaxxer#HikariCP;2.4.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.googlecode.usc#jdbcdslog;1.0.6.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.4.191 ...[0m
+[0m[[0minfo[0m] [0mResolving tyrex#tyrex;1.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-cache_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sf.ehcache#ehcache-core;2.6.11 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-ws_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-ws_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.asynchttpclient#async-http-client;2.0.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.asynchttpclient#netty-resolver-dns;2.0.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.asynchttpclient#netty-resolver;2.0.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.21 ...[0m
+[0m[[0minfo[0m] [0mResolving org.asynchttpclient#netty-codec-dns;2.0.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.20.0-GA ...[0m
+[0m[[0minfo[0m] [0mResolving oauth.signpost#signpost-core;1.2.1.2 ...[0m
+[0m[[0minfo[0m] [0mResolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-client;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-client;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;12 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-annotations;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-annotations;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.github.stephenc.findbugs#findbugs-annotations;1.3.9-1 ...[0m
+[0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.17 ...[0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.11 ...[0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-protocol;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-protocol;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.2 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-lang#commons-lang;2.6 ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-all;4.0.23.Final ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.zookeeper#zookeeper;3.4.5-mapr-1406 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.6.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.jboss.netty#netty;3.2.2.Final ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.htrace#htrace-core;3.1.0-incubating ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.9.13 ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.9.13 ...[0m
+[0m[[0minfo[0m] [0mResolving org.jruby.jcodings#jcodings;1.0.8 ...[0m
+[0m[[0minfo[0m] [0mResolving org.jruby.joni#joni;2.1.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.mapr.fs#mapr-hbase;5.1.0-mapr ...[0m
+[0m[[0minfo[0m] [0mResolving com.mapr.hadoop#maprfs;5.1.0-mapr ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-auth;2.7.0-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.2.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.2.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-framework;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-client;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.zookeeper#zookeeper;3.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.6 ...[0m
+[0m[[0minfo[0m] [0mResolving jline#jline;0.9.94 ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.7.0.Final ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-common;2.7.0-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-annotations;2.7.0-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-cli#commons-cli;1.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving xmlenc#xmlenc;0.52 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-httpclient#commons-httpclient;3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-net#commons-net;3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.2 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.servlet#servlet-api;2.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jetty;6.1.26 ...[0m
+[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jetty-util;6.1.26 ...[0m
+[0m[[0minfo[0m] [0mResolving com.sun.jersey#jersey-core;1.9 ...[0m
+[0m[[0minfo[0m] [0mResolving com.sun.jersey#jersey-json;1.9 ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jettison#jettison;1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.sun.xml.bind#jaxb-impl;2.2.3-1 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.xml.bind#jaxb-api;2.2.2 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.xml.stream#stax-api;1.0-2 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.activation#activation;1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.8.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-jaxrs;1.8.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-xc;1.8.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.sun.jersey#jersey-server;1.9 ...[0m
+[0m[[0minfo[0m] [0mResolving asm#asm;3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving net.java.dev.jets3t#jets3t;0.9.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.jamesmurty.utils#java-xmlbuilder;0.4 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-configuration#commons-configuration;1.6 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-digester#commons-digester;1.8 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils;1.7.0 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils-core;1.8.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.avro#avro;1.7.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.0.4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.gson#gson;2.2.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.10 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.directory.server#apacheds-i18n;2.0.0-M15 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.directory.api#api-asn1-api;1.0.0-M20 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.directory.api#api-util;1.0.0-M20 ...[0m
+[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.42 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-recipes;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.servlet.jsp#jsp-api;2.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.json#json;20080701 ...[0m
+[0m[[0minfo[0m] [0mResolving xalan#xalan;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving xalan#serializer;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-server;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-server;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;12 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-procedure;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-procedure;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-client;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-client;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving com.yammer.metrics#metrics-core;2.2.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math;2.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jsp-2.1;6.1.14 ...[0m
+[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jsp-api-2.1;6.1.14 ...[0m
+[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#servlet-api-2.5;6.1.14 ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-jaxrs;1.9.13 ...[0m
+[0m[[0minfo[0m] [0mResolving org.jamon#jamon-runtime;2.3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.lmax#disruptor;3.3.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-prefix-tree;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-prefix-tree;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-annotations;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-annotations;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-common;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-common;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1-mapr-1602-m7-5.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.8.8 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.12 ...[0m
+[0m[[0minfo[0m] [0mResolving com.novocode#junit-interface;0.11 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit;2.20 ...[0m
+[0m[[0minfo[0m] [0mResolving xalan#xalan;2.7.2 ...[0m
+[0m[[0minfo[0m] [0mResolving xalan#serializer;2.7.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.5.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.4.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpmime;4.5.2 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit-core-js;2.17 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.nekohtml#nekohtml;1.9.22 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.cssparser#cssparser;0.9.18 ...[0m
+[0m[[0minfo[0m] [0mResolving org.w3c.css#sac;1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;9.2.15.v20160210 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;9.2.15.v20160210 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 ...[0m
+[0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-core;0.10.9 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-java;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-remote-driver;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving cglib#cglib-nodep;2.1_3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.gson#gson;2.3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-api;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-exec;1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving net.java.dev.jna#jna;4.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving net.java.dev.jna#jna-platform;4.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-edge-driver;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-support;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-ie-driver;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-safari-driver;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.webbitserver#webbit;0.4.14 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-leg-rc;2.48.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-omnidoc_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-docs_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-doc_2.11;1.2.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.pegdown#pegdown;1.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-java;1.1.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-tree;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-analysis;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-util;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#fork-run_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#fork-run-protocol_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#run-support_2.11;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-compiler_2.11;1.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-parser_2.11;1.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbtrc#client-2-11;0.3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.11;0.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.11;0.10.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.11;3.2.10 ...[0m
+[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.11;3.2.10 ...[0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.11;0.6.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.11;0.6.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#io_2.11;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#control_2.11;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections_2.11;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbtrc#actor-client-2-11;0.3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.8 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.11;2.3.8 ...[0m
+[0m[[0minfo[0m] [0mResolving net.contentobjects.jnotify#jnotify;0.94-play-1 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[33mwarn[0m] [0mThere may be incompatibilities among your library dependencies.[0m
+[0m[[33mwarn[0m] [0mHere are some of the libraries that were evicted:[0m
+[0m[[33mwarn[0m] [0m	* org.apache.hbase:hbase-client:1.1.1-mapr-1602-m7-5.1.0 -> 1.1.1-mapr-1602[0m
+[0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (Running the application, auto-reloading is enabled) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[31merror[0m] [0mSLF4J: Class path contains multiple SLF4J bindings.[0m
+[0m[[31merror[0m] [0mSLF4J: Found binding in [jar:file:/C:/Users/krishnachaitanya/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class][0m
+[0m[[31merror[0m] [0mSLF4J: Found binding in [jar:file:/C:/Users/krishnachaitanya/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class][0m
+[0m[[31merror[0m] [0mSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.[0m
+[0m[[31merror[0m] [0mSLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder][0m
+[0m[[0minfo[0m] [0mp.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m(Server started, use Ctrl+D to stop and go back to the console...)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T16:34:51.272Z[0m
+[0m[[31merror[0m] [0mlog4j:WARN No appenders could be found for logger (org.jboss.logging).[0m
+[0m[[31merror[0m] [0mlog4j:WARN Please initialize the log4j system properly.[0m
+[0m[[31merror[0m] [0mlog4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[31merror[0m] [0mo.a.h.u.Shell - Failed to locate the winutils binary in the hadoop binary path[0m
+[0m[[0minfo[0m] [0mjava.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:356)[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:371)[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:364)[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1450)[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.hbase.HBaseConfiguration.checkDefaultsVersion(HBaseConfiguration.java:69)[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.hbase.HBaseConfiguration.addHbaseResources(HBaseConfiguration.java:83)[0m
+[0m[[0minfo[0m] [0m	at org.apache.hadoop.hbase.HBaseConfiguration.create(HBaseConfiguration.java:98)[0m
+[0m[[0minfo[0m] [0m	at controllers.Customer.viewCustomers(Customer.java:82)[0m
+[0m[[0minfo[0m] [0m	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.apply(Routes.scala:245)[0m
+[0m[[33mwarn[0m] [0mo.a.h.u.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable[0m
+[0m[[33mwarn[0m] [0mc.m.f.MapRFileSystem - Could not find any cluster, defaulting to localhost[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0m0[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0m0[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0m0[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T17:07:25.125Z after 1954s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T17:07:25.297Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0m0[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T17:22:55.072Z after 930s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T17:22:55.250Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0m0[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:114:  java.lang.String cannot be converted to byte[][0m
+[0m[[31merror[0m] [0m"customer_details"[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:114:  java.lang.String cannot be converted to byte[][0m
+[0m[[31merror[0m] [0m"customer_details"[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m
+[0m[[31merror[0m] [0mapplication - [0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m! @7157c8imi - Internal server error, for (GET) [/customers?from=6000&to=50000] ->[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mplay.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[ java.lang.String cannot be converted to byte[]][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159)[0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175)[0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181)[0m
+[0m[[0minfo[0m] [0m	at scala.pickling.Unpickler$class.unpickleEntry(Pickler.scala:79)[0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickleEntry(Serializers.scala:181)[0m
+[0m[[0minfo[0m] [0m	at scala.pickling.functions$.unpickle(functions.scala:11)[0m
+[0m[[0minfo[0m] [0m	at sbt.serialization.JsonValue$$anonfun$parse$1.apply(SerializedValue.scala:104)[0m
+[0m[[0minfo[0m] [0m	at scala.util.Try$.apply(Try.scala:192)[0m
+[0m[[0minfo[0m] [0m	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104)[0m
+[0m[[0minfo[0m] [0m	at sbt.protocol.BuildValue.value(Values.scala:11)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T17:24:47.045Z after 112s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T17:24:47.185Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0m0[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:115: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable scan[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mscan[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:114: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable scan[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mscan[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:115: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable scan[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mscan[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:117: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable scan[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mscan[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class RowFilter[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mRowFilter[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:113: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BinaryComparator[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mBinaryComparator[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:111: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:111: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:112: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable CompareOp[0m
+[0m[[31merror[0m] [0m  location: class controllers.Customer[0m
+[0m[[31merror[0m] [0mCompareOp[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[DEBUG] [08/17/2016 10:42:24.340] [application-akka.actor.default-dispatcher-10] [EventStream] shutting down: StandardOutLogger started[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T17:42:24.346Z after 1057s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T17:42:24.564Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : [B@49eb77c1[0m
+[0m[[0minfo[0m] [0m1[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:121:  org.apache.hadoop.hbase.client.Result cannot be converted to byte[][0m
+[0m[[31merror[0m] [0mresult[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java:121:  org.apache.hadoop.hbase.client.Result cannot be converted to byte[][0m
+[0m[[31merror[0m] [0mresult[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T17:50:24.435Z after 480s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T17:50:24.639Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0m1[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T17:51:43.187Z after 79s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T17:51:43.304Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 6789[0m
+[0m[[0minfo[0m] [0mFound row : 8562[0m
+[0m[[0minfo[0m] [0mFound row : 93023[0m
+[0m[[0minfo[0m] [0m3[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 50000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 57914[0m
+[0m[[0minfo[0m] [0mFound row : 6789[0m
+[0m[[0minfo[0m] [0mFound row : 8562[0m
+[0m[[0minfo[0m] [0mFound row : 93023[0m
+[0m[[0minfo[0m] [0m4[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T21:05:11.786Z after 11608s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T21:05:13.276Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[31merror[0m] [0m2016-08-17 14:05:34,0012 ERROR Client fs/client/fileclient/cc/client.cc:5826 Thread: 8856 rpc err Unknown error(10054) 28.21 to 172.17.4.184:5660, fid 2049.16.2, upd 0[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[31merror[0m] [0m2016-08-17 14:05:37,3901 ERROR Client fs/client/fileclient/cc/client.cc:5826 Thread: 8856 rpc err Unknown error(10054) 35.2 to 172.17.3.117:5660, fid 2326.43.131286, upd 1[0m
+[0m[[0minfo[0m] [0mFound row : 6789[0m
+[0m[[0minfo[0m] [0mFound row : 8562[0m
+[0m[[0minfo[0m] [0mFound row : 93023[0m
+[0m[[0minfo[0m] [0m3[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: C:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mC:\Users\krishnachaitanya\mapr_connect1\app\controllers\Customer.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m--- (RELOAD) ---[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Stopping application at 2016-08-17T21:06:31.820Z after 78s.[0m
+[0m[[0minfo[0m] [0mapplication - ApplicationTimer demo: Starting application at 2016-08-17T21:06:32.630Z[0m
+[0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0m1[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 10000 and 7000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0mFound row : 57914[0m
+[0m[[0minfo[0m] [0mFound row : 6789[0m
+[0m[[0minfo[0m] [0m3[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0m1[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 90000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0mFound row : 57914[0m
+[0m[[0minfo[0m] [0mFound row : 6789[0m
+[0m[[0minfo[0m] [0mFound row : 8562[0m
+[0m[[0minfo[0m] [0m4[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 50000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0m1[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 6000 and 60000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0mFound row : 57914[0m
+[0m[[0minfo[0m] [0m2[0m
+[0m[[0minfo[0m] [0mHome folder -maprfs:///user/root[0m
+[0m[[0minfo[0m] [0muhgtest01.cloudwick.com,uhgtest02.cloudwick.com,uhgtest03.cloudwick.com[0m
+[0m[[0minfo[0m] [0mscan table started[0m
+[0m[[0minfo[0m] [0mset start 10000 and 7000[0m
+[0m[[0minfo[0m] [0mend row[0m
+[0m[[0minfo[0m] [0mFound row : 10029[0m
+[0m[[0minfo[0m] [0mFound row : 57914[0m
+[0m[[0minfo[0m] [0mFound row : 6789[0m
+[0m[[0minfo[0m] [0m3[0m

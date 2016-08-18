@@ -1,0 +1,11 @@
+@(insertDataForm: Form[models.insertData])
+@import helper._
+
+@main("Customer"){
+	@form(action = routes.Customer.insert_customer()){
+		@inputText(insertDataForm("row_key"))
+		@inputText(insertDataForm("column_Family"))
+		@inputText(insertDataForm("cust_name"))
+		<input type="submit" class="btn btn-primary" value="Insert"/>
+	}
+}

@@ -1,0 +1,10 @@
+@(CustomersListF : ArrayList[String])
+
+@main("customers"){
+	<h1>list of customers are</h1>
+	<ul>
+	@for(customer <- CustomersListF){
+		<li>@customer</li>
+	}
+	</ul>
+}

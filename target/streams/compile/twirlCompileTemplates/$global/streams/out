@@ -1,0 +1,4 @@
+[error] C:\Users\krishnachaitanya\mapr_connect1\app\views\listCustomers.scala.html:10: Invalid '@' symbol
+[error] *@
+[error]  ^
+[error] (compile:twirlCompileTemplates) Twirl compilation failed

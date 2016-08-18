@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\krishnachaitanya\mapr_connect1\conf\application.conf,C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes\application.conf)
+[debug] 	(C:\Users\krishnachaitanya\mapr_connect1\conf\logback.xml,C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes\logback.xml)
+[debug] 	(C:\Users\krishnachaitanya\mapr_connect1\conf\routes,C:\Users\krishnachaitanya\mapr_connect1\target\scala-2.11\classes\routes)
